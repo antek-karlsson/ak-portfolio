@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint --fix",
-    "typecheck": "tsc --noEmit --incremental --watch",
+    "typecheck": "tsc --noEmit --incremental",
     "typecheck-commit-hook": "tsc --noEmit --incremental",
     "prettify": "npx prettier --write",
     "prepare": "husky install"
