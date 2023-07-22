@@ -1,4 +1,4 @@
-import { defineConfig } from "sanity";
+import { defineConfig } from 'sanity';
 import { deskTool } from 'sanity/desk';
 
 const config = defineConfig({
@@ -8,6 +8,6 @@ const config = defineConfig({
   apiVersion: '2023-07-12',
   basePath: '/admin',
   plugins: [deskTool()],
-})
+});
 
 export default config;
